@@ -1,0 +1,39 @@
+*body {
+    margin: 0;
+    padding: 0;
+}
+
+/* header container style start */
+
+.container {
+    width: 82%;
+    max-width: 1320px;
+    height: 600px;
+    margin: 50px auto 120px auto;
+    background-image: url(resources/Banner\ Image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container-slogan {
+    color: #FFF;
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+
+}
+
+.container-title {
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 95px;
+    width: 632px;
+    margin: 0 auto;
+
+}
