@@ -1,4 +1,4 @@
-*body {
+body {
     margin: 0;
     padding: 0;
 }
@@ -14,26 +14,39 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    /* text-align: center; */
+    padding: 0;
+}
+
+.container-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+
 }
 
 .container-slogan {
     color: #FFF;
-    text-align: center;
     font-size: 32px;
     font-style: normal;
     font-weight: 400;
-
+    margin-bottom: 10px;
 }
 
 .container-title {
     color: #FFF;
-    text-align: center;
     font-family: Merriweather;
     font-size: 72px;
     font-style: normal;
-    font-weight: 900;
-    line-height: 95px;
     width: 632px;
+    text-align: center;
+    padding: 0 auto;
     margin: 0 auto;
-
 }
+
+/* header container style end */
+
+
+/* main content style start */
