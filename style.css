@@ -485,3 +485,41 @@ footer {
     background: rgba(255, 255, 255, 0.15);
 
 }
+
+.social {
+    margin: 50px auto;
+    align-items: center;
+    text-align: center;
+
+
+}
+
+.social img {
+
+    width: 64px;
+    height: 64px;
+    flex-shrink: 0;
+    margin-right: 10px;
+}
+
+.copyright-reserve {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+
+    width: 82%;
+    max-width: 1320px;
+    margin: 50px auto 0 auto;
+}
+
+.copyright-reserve div p {
+    color: azure;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+}
