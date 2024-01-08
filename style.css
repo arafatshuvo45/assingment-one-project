@@ -61,9 +61,6 @@ body {
     margin: 50px auto 120px auto;
     text-align: center;
     align-items: center;
-    /* width: 1600px; */
-    /* margin: 0 auto; */
-
 }
 
 .section-one-heading {
@@ -71,9 +68,7 @@ body {
     text-align: center;
     font-family: Inter;
     font-size: 88px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
     margin-bottom: 10px;
 }
 
@@ -273,3 +268,79 @@ body {
 }
 
 /*  */
+
+.portfolio {
+    width: 82%;
+    max-width: 1320px;
+    height: 482px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 100px auto;
+}
+
+.portfolio-text {
+    padding: 20px;
+    text-align: start;
+}
+
+
+
+
+
+.portfolio-text p {
+    margin: 20px 0;
+    padding: 0;
+
+}
+
+.portfolio-greetings {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.portfolio-header {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.portfolio-paragraph {
+    width: 896px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+
+.portfolio-one {
+
+    display: flex;
+
+}
+
+
+.portfolio-one div {
+
+    width: 33%;
+    margin: 10px auto;
+    padding: 0;
+
+}
+
+
+.portfolio-two {
+    display: flex;
+
+}
+
+
+.portfolio-two div {
+    width: 33%;
+    margin: 10px auto;
+    padding: 0;
+}
