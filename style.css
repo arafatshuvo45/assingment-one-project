@@ -254,12 +254,77 @@ body {
     align-items: center;
 }
 
-/* .image-comming-soon {
-    background-color: aquamarine; 
+/* end */
+
+.holiday-section {
+    width: 82%;
+    max-width: 1320px;
+    height: 1000px;
+    margin: 100px auto 0 auto;
+    background-color: aqua;
 }
 
-.third-comming-section {
-    /* background-color: blue; */
+.holiday-greetings {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.holiday-offer {
+    color: #F00;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.holiday-content {
+    width: 1068px;
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    /* 160% */
+}
+
+.holiday-text-section {
+    align-items: center;
+}
+
+.holiday-text-section p {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+}
+
+.holiday-images {
+    width: 82%;
+    max-width: 1320px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+
+.holiday-images div {
+    margin: 0;
+    padding: 0;
+    align-items: end;
+}
+
+.holiday-footer {
+    position: absolute;
+}
 
 
 
