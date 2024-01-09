@@ -10,8 +10,9 @@ body {
     max-width: 1320px;
     height: 600px;
     margin: 50px auto 120px auto;
-    background-image: url(resources/Banner\ Image.png);
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(resources/Banner\ Image.png);
     border-radius: 16px;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -112,7 +113,7 @@ body {
     height: 600px;
 
     margin: 360px auto 120px auto;
-    background-image: url(resources/Vectorrr.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(resources/Vectorrr.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -182,7 +183,7 @@ body {
     max-width: 1320px;
     height: 482px;
     flex-shrink: 0;
-    background-color: aqua;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
 
     margin: 120px auto 120px auto;
     border-radius: 5px;
