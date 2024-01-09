@@ -1,13 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap');
+
 body {
     margin: 0;
     padding: 0;
 
+    font-family: 'Inter', sans-serif;
+    font-family: 'Merriweather', serif;
+
 }
-
-
-
-
-
 
 .red-color {
     color: red;
@@ -49,7 +49,7 @@ body {
 
 .container-title {
     color: #FFF;
-    font-family: Merriweather;
+    font-family: 'Merriweather', serif;
     font-size: 72px;
     font-style: normal;
     width: 632px;
@@ -78,7 +78,7 @@ body {
 .section-one-heading {
     color: #F00;
     text-align: center;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 88px;
     font-weight: 700;
     margin-bottom: 10px;
@@ -88,7 +88,7 @@ body {
 
     color: #F00;
     text-align: center;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
@@ -99,7 +99,7 @@ body {
 .section-one-catagories {
     color: #070211;
     text-align: center;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 48px;
     font-style: normal;
     font-weight: 700;
@@ -139,7 +139,7 @@ body {
 .midnight-heading {
     /* width: 642px; */
     color: #FFF;
-    font-family: Merriweather;
+    font-family: 'Merriweather', serif;
     font-size: 64px;
     font-style: normal;
     font-weight: 900;
@@ -155,7 +155,7 @@ body {
 .midnight-description {
     width: 697px;
     color: rgba(255, 255, 255, 0.80);
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -169,7 +169,7 @@ body {
 .btn-primary {
     color: #FFF;
     text-align: center;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
@@ -205,7 +205,7 @@ body {
 
 .event-time-content {
     color: #070211;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 32px;
     font-style: normal;
     font-weight: 600;
@@ -276,7 +276,7 @@ body {
 
 .holiday-greetings {
     color: #070211;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
@@ -286,7 +286,7 @@ body {
 .holiday-offer {
     color: #F00;
     text-align: center;
-    font-family: Merriweather;
+    font-family: 'Merriweather', serif;
     font-size: 72px;
     font-style: normal;
     font-weight: 900;
@@ -297,7 +297,7 @@ body {
     width: 1068px;
     color: rgba(7, 2, 17, 0.60);
     text-align: center;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
@@ -342,7 +342,7 @@ body {
 .new-best-offer {
     color: #F00;
     text-align: start;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
@@ -353,7 +353,7 @@ body {
 
 .comming-soon-text {
     color: #070211;
-    font-family: Merriweather;
+    font-family: 'Merriweather', serif;
     font-size: 48px;
     font-style: normal;
     font-weight: 900;
@@ -366,7 +366,7 @@ body {
 .comming-soon-paragaph {
     width: 393px;
     color: rgba(7, 2, 17, 0.60);
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -403,14 +403,14 @@ body {
 
 .portfolio-greetings {
     color: #F00;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 24px;
     font-weight: 500;
 }
 
 .portfolio-header {
     color: #070211;
-    font-family: Merriweather;
+    font-family: 'Merriweather', serif;
     font-size: 48px;
     font-weight: 900;
 }
@@ -418,7 +418,7 @@ body {
 .portfolio-paragraph {
     width: 896px;
     color: rgba(7, 2, 17, 0.60);
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 20px;
     font-weight: 400;
 
@@ -479,7 +479,7 @@ body {
 .news-title {
     color: #070211;
     text-align: center;
-    font-family: Merriweather;
+    font-family: 'Merriweather', serif;
     font-size: 48px;
     font-weight: 900;
     margin-bottom: 20px;
@@ -503,23 +503,23 @@ body {
 
 .subscribe-button form {
 
-    width: 400px;
-    height: 40px;
+    width: 500px;
+    height: 50px;
     margin: 20px auto;
     display: flex;
 
 }
 
 .subscribe-button button {
-    width: 100px;
-    height: 40px;
+    width: 150px;
+    height: 50px;
     flex-shrink: 0;
     border-radius: 0px 50px 50px 0px;
     background: #F00;
 
     color: #FFF;
     text-align: center;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 600;
@@ -564,7 +564,7 @@ footer {
 
 .footer-street {
     color: #FFF;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
@@ -576,7 +576,7 @@ footer {
 .footer-number,
 .footer-web {
     color: #FFF;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
@@ -623,7 +623,7 @@ footer {
 .copyright-reserve div p {
     color: azure;
     color: #FFF;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
