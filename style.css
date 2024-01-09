@@ -271,7 +271,7 @@ body {
     max-width: 1320px;
     height: 1000px;
     margin: 100px auto 0 auto;
-    background-color: aqua;
+    /* background-color: aqua; */
 }
 
 .holiday-greetings {
